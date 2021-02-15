@@ -32,16 +32,16 @@ const About = () =>{
                                 <a href="https://github.com/Bliumks"><FontAwesomeIcon icon={faGithub} className="icon fa-4x"></FontAwesomeIcon></a>
                                 <a href="https://www.linkedin.com/in/nikita-bliumkin/"><FontAwesomeIcon icon={faLinkedin} className="icon fa-4x"></FontAwesomeIcon></a>
                             </div>
-                            <div className="card-body">
+                            <div className="card-body midCard">
                                 <h5 className="card-title" style={{textAlign:" left", marginLeft:"40px"}}><img  alt=""  src={l} width="20"
-                                        height="20" fill="currentColor" className="bi bi-pin mg-1 d-none d-lg-inline" viewBox="0 0 16 16"/>
+                                        height="20" fill="currentColor" className="bi bi-pin mg-1 " viewBox="0 0 16 16"/>
                                     Toronto, ON </h5>
                                 <h5 className="card-title " style={{textAlign:" left", marginLeft:"40px"}}><img  alt="" src={c} width="20"
-                                        height="20" fill="currentColor" className="bi bi-pin mg-1 d-none d-lg-inline" viewBox="0 0 16 16"/> 21 Feb
+                                        height="20" fill="currentColor" className="bi bi-pin mg-1 " viewBox="0 0 16 16"/> 21 Feb
                                     1997</h5>
                         
                                 <h5 className="card-title" style={{textAlign:" left", marginLeft:"40px"}}><img alt=""  src={e} width="20"
-                                        height="20" fill="currentColor" className="bi bi-pin mg-1 d-none d-lg-inline" viewBox="0 0 16 16"/>
+                                        height="20" fill="currentColor" className="bi bi-pin mg-1 " viewBox="0 0 16 16"/>
                                     n.bliumkin@gmail.com </h5>
                             </div>
                             
@@ -79,7 +79,7 @@ const About = () =>{
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello there! My name is <b>Nikita Bliumkin</b>.
                                      I am a <b>Software Engineer</b> discovering the avenues for applying my coding skills to real-life problems.
                                       My main area of interest at the moment is <b>web development</b>. Working on websites allows me to combine my
-                                       love of visual arts with my passion for coding, and this is the biggest motivation for me to move forward 
+                                       love of visual arts with my passion for coding and this is the biggest motivation for me to move forward 
                                        and advance in this field.
                                 </p>
                                 <p className="lead">
@@ -88,10 +88,10 @@ const About = () =>{
                                      and rest from my work, I grab my camera and go outside.
                                 </p>
                                 <p className="lead">
-                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I <b>recently graduated</b> from university and am <b>looking for new opportunities</b>, so make sure to download my resume! Also, check out my projects to see what I have been up to!
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I <b>recently graduated</b> from university and am <b>looking for new opportunities</b>, so make sure to look at my resume! Also, check out my projects to see what I have been up to!
                                 </p>
                                 
-                                <a href="../docs/Resume_Nikita_Bliumkin.pdf" download><button type="button" className="btn btn-outline-secondary">DOWNLOAD RESUME</button></a>
+                                <a href="https://docdro.id/FqNFJso" ><button type="button" className="btn btn-outline-secondary"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RESUME &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</button></a>
                             </div>
                             
                         </div>

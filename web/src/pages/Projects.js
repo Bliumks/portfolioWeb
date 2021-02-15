@@ -114,7 +114,6 @@ const Projects = () =>{
                           <span className="badge rounded-pill ">Bootstrap</span>
                           <span className="badge rounded-pill ">HTML</span>
                           <span className="badge rounded-pill ">CSS</span>
-                          <span className="badge rounded-pill ">Firebase</span>
                       </div>
                   </div>
               </div>
@@ -122,9 +121,7 @@ const Projects = () =>{
                   <div id="rightPr"  className="row ">
                       <div id="txtPr" className="col-10 text-center">
                           <p class="">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This portfolio became my real visual design project as well as a great opportunity to practice my <b>front-end</b>  skills. All
-                            pages were designed by me from scratch. The website is <b>mobile-friendly</b> and can be used on smartphones and tablets. For
-                            this website, I used such technologies as JavaScript, HTML, CSS, Gatsby.Js, Bootstrap.
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This portfolio became my visual design project, as well as a perfect opportunity to practice my <b>front-end</b>  skills. All pages were designed from scratch by me. The website is <b>mobile-friendly</b> and can be used on smartphones and tablets. For this website, I used such technologies as JavaScript, HTML, CSS, Gatsby.Js, Bootstrap.
                             </p>
                           <a href="https://github.com/Bliumks/portfolioWeb"><FontAwesomeIcon icon={faGithub} className="icon fa-3x"></FontAwesomeIcon></a>
                       </div>

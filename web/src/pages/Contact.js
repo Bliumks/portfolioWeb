@@ -32,14 +32,14 @@ const Contact = () =>{
             <div className="col-lg-4 col-md-6 order-1 order-lg-2" id="centerC">
                 <h1 style={{fontWeight: 200}}>LET'S KEEP IN TOUCH</h1>
                 <img src={i} id="imgC" className="img-fluid d-none d-md-block" alt=""/>
-                <a href="../docs/Resume_Nikita_Bliumkin.pdf" download><button type="button" id='btC' className="btn bt" >DOWNLOAD RESUME</button></a>
+                <a href="https://docdro.id/FqNFJso"><button type="button" id='btC' className="btn bt" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RESUME&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</button></a>
             </div>
             <div class="col-lg-4 col-md-6 row justify-content-center order-2 order-lg-3" id="rightC">
                 <div>
                     <p id='maintextC'>
                         I hope you enjoyed your visit!<br/>
                         To reach me use the links or this email<br/> <img src={e} width="20" height="20"
-                            fill="currentColor" className="bi bi-pin mg-1 d-none d-lg-inline" viewBox="0 0 16 16" alt=""/><b>
+                            fill="currentColor" className="bi bi-pin mg-1 " viewBox="0 0 16 16" alt=""/><b>
                             &nbsp;&nbsp;n.bliumkin@gmail.com</b>
                         <p class="d-lg-none" > <a href="https://github.com/Bliumks"><FontAwesomeIcon style={{marginTop:"2%", marginRight:"1%"}} icon={faGithub} className="icon fa-2x"></FontAwesomeIcon></a>
                     <a href="https://www.linkedin.com/in/nikita-bliumkin/"><FontAwesomeIcon style={{marginTop:"2%", marginLeft:"1%"}} icon={faLinkedin} className="icon fa-2x"></FontAwesomeIcon></a>

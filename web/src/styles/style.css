@@ -237,6 +237,9 @@ svg{
   font-weight: 600;
   border-bottom: 0.5px solid #343a40;
 }
+.midCard{
+  margin-left: -4%;
+}
 
 
 
@@ -477,6 +480,28 @@ svg{
     
     
 }
+@media (max-width: 590px){
+    #txtPr p{
+      font-size: 1rem;
+    }
+    #cardPr{
+      width: 318px;
+    }
+    #cardPr img{
+    border: 2px solid #dee2e6;
+    margin-left: 2.5%;
+    width: 300px;
+    height: 300px;
+    }
+    #dis h4{
+      font-size: 1.5rem;
+    }
+    #dis h6{
+      font-size: 1rem;
+    }
+
+}
+
 
 /* contact */
 
@@ -624,7 +649,7 @@ svg{
 #containerI #name span{
   color: #343a40;
   font-weight: 200;
-  font-size: 5.6rem;
+  font-size: 5.3rem;
   
 }
 @keyframes change {
@@ -653,13 +678,13 @@ svg{
   animation: changed 5.5s linear;
   color: #343a40;
   font-weight: 300;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 #containerI #welcome{
   animation: changew 5.5s linear;
   color: #343a40;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-bottom: -6%;
 }
 
@@ -735,6 +760,7 @@ svg{
     #containerI img{
       width: 225px;
       height: 225px;
+      margin-bottom: 4%;
     }
     #containerI #name span{
       font-size: 3.375rem;

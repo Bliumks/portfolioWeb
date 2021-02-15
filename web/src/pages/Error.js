@@ -9,13 +9,14 @@ import { faFrown } from '@fortawesome/free-solid-svg-icons'
 
 
 const  Error = () =>{
-  <Helmet>
+  
+    return(
+        <div className="Home">
+            <Helmet>
                 
                 <title>404</title>
                 
             </Helmet>
-    return(
-        <div className="Home">
             <div id="containerI" className="container-fluid justify-content-center " style={{height: '100vh'}} >
         
                 <h1 style={{fontWeight: 200,fontSize:"3rem"}}>Page doesnt exist!<FontAwesomeIcon icon= {faFrown} style={{marginBottom:"0px"}} /></h1>
