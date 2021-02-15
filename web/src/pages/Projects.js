@@ -6,12 +6,18 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import i from '../imgs/health.png';
 import s from '../imgs/solutions.png';
 import r from "../imgs/react.png"
+import {Helmet} from "react-helmet";
 
 
 const Projects = () =>{
   
     return(
       <div className="Home pro container-fluid px-0">
+        <Helmet>
+                
+                <title>Projects</title>
+                
+            </Helmet>
         <section id="containerPr" className="container-fluid px-0 ">
           <div className="row align-items-center center ">
               <div id="leftPr" className="col-lg-6 order-1">
@@ -37,16 +43,16 @@ const Projects = () =>{
                   <div id="rightPr"  className="row ">
                       <div id="txtPr" className="col-10 text-center">
                           <p className="text-left">
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a part of my university capstone project, I was working in a team designing smart sensors for a washroom. The purpose
-                              of this device is to help elder people to maintain their independence for a longer period of time.The project was created in collaboration with the scientific laboratory of Carleton University that specializes in the
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a part of my university capstone project, I was working in a team designing <b>smart sensors for a washroom</b>. The purpose
+                              of this device is <b>to help elder people to maintain their independence</b> for a longer period of time. The project was created in collaboration with the scientific laboratory of Carleton University that specializes in the
                               design of smart sensors.
                               </p><p className="text-left">
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The architecture consists of humidity sensors connected to water pipes and pressure sensors located at the entrance. Sensors collect such data as how many times a person entered the washroom per day, the
                               temperature of running water and etc. Then this data is being analyzed by the system and to the caregiver's webpage in
                               form of graphs.
                               </p><p className="text-left">
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During this project, I worked as a full-stack developer. My responsibilities were to design backend modules and connect
-                              them with API. Also, I contributed to the design of the database, and caregiver's page design.
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During this project, I worked as a <b>full-stack developer</b>. My responsibilities were to <b>design backend modules</b> and connect
+                              them with <b>API</b>. Also, I contributed to the <b>design of the database</b>, and caregiver's <b>page design</b>.
                           </p>
                           <a href="https://github.com/PirateRoberts98/capstone-hygeine-managment?fbclid=IwAR2DkIip-srmbZXqD_cVYsKIJPd78ZM8SArkJGf2jCEtPKoGF5r_NJueJrU"><FontAwesomeIcon icon={faGithub} className="icon fa-3x"></FontAwesomeIcon></a>
                       </div>
@@ -77,13 +83,13 @@ const Projects = () =>{
                   <div id="rightPr"  className="row ">
                       <div id="txtPr" className="col-10 text-center">
                           <p className="text-left">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; During my volunteering period at Constituent Manager Solution, I was designing a website for tracking information about
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; During my <b>volunteering</b> period at Constituent Manager Solution, I was <b>designing a website</b> for tracking information about
                             party voters. Main clients for this product had to become party members who are looking for a cheap and effective
                             service. 
                         </p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The system has a comprehended search engine that helps users retrieve data using multiple search parameters. Clients can
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The system has a <b>comprehended search engine</b> that helps users retrieve data using multiple search parameters. Clients can
                         also create tags for their voters and assign them into different categories.</p>
-                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My main goal was to design backend architecture that could be reusable and easy to modify. My code is currently used for
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My main goal was to <b>design backend</b> architecture that could be reusable and easy to modify. My code is currently used for
                         the beta-test and will be the base for the final product.</p>
                           <a href="https://github.com/Bliumks/consTracker"><FontAwesomeIcon icon={faGithub} className="icon fa-3x"></FontAwesomeIcon></a>
                       </div>
@@ -115,18 +121,11 @@ const Projects = () =>{
               <div className="col-lg-6 order-2 ">
                   <div id="rightPr"  className="row ">
                       <div id="txtPr" className="col-10 text-center">
-                          <p className="text-left">
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a part of my university capstone project, I was working in a team designing smart sensors for a washroom. The purpose
-                              of this device is to help elder people to maintain their independence for a longer period of time.The project was created in collaboration with the scientific laboratory of Carleton University that specializes in the
-                              design of smart sensors.
-                              </p><p className="text-left">
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The architecture consists of humidity sensors connected to water pipes and pressure sensors located at the entrance. Sensors collect such data as how many times a person entered the washroom per day, the
-                              temperature of running water and etc. Then this data is being analyzed by the system and to the caregiver's webpage in
-                              form of graphs.
-                              </p><p className="text-left">
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;During this project, I worked as a full-stack developer. My responsibilities were to design backend modules and connect
-                              them with API. Also, I contributed to the design of the database, and caregiver's page design.
-                          </p>
+                          <p class="">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This portfolio became my real visual design project as well as a great opportunity to practice my <b>front-end</b>  skills. All
+                            pages were designed by me from scratch. The website is <b>mobile-friendly</b> and can be used on smartphones and tablets. For
+                            this website, I used such technologies as JavaScript, HTML, CSS, Gatsby.Js, Bootstrap.
+                            </p>
                           <a href="https://github.com/Bliumks/portfolioWeb"><FontAwesomeIcon icon={faGithub} className="icon fa-3x"></FontAwesomeIcon></a>
                       </div>
                   </div>

@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import '../styles/style.css';
+import {Helmet} from "react-helmet";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -13,9 +14,13 @@ import e from '../imgs/envelope.svg';
 const Contact = () =>{
   
     return(
-      <div className="Home">
-        
-        <section className="container-fluid px-0" >
+      <div className="Home container-fluid px-0 ">
+        <Helmet>
+                
+                <title>Contact Me</title>
+                
+            </Helmet>
+        <section id="coneinerI" className="container-fluid px-0" >
         <div id="rowC" className="row align-items-center justify-content-center">
             <div className="col-lg-4 order-lg-1  d-none d-lg-block" id="leftC">
                 <div id="linksC" className='col-6'>
@@ -27,7 +32,7 @@ const Contact = () =>{
             <div className="col-lg-4 col-md-6 order-1 order-lg-2" id="centerC">
                 <h1 style={{fontWeight: 200}}>LET'S KEEP IN TOUCH</h1>
                 <img src={i} id="imgC" className="img-fluid d-none d-md-block" alt=""/>
-                <a href="../docs/Resume_a.pdf" download><button type="button" id='btC' className="btn bt" >DOWNLOAD RESUME</button></a>
+                <a href="../docs/Resume_Nikita_Bliumkin.pdf" download><button type="button" id='btC' className="btn bt" >DOWNLOAD RESUME</button></a>
             </div>
             <div class="col-lg-4 col-md-6 row justify-content-center order-2 order-lg-3" id="rightC">
                 <div>

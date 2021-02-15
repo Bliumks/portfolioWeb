@@ -8,10 +8,12 @@ html,body{
 #mainNavbar{
     /* width: 50.8%; */
     background: #dee2e6;
-    opacity: 0.7;
+    opacity: 0.8;
     font-size: 1.5rem;
     font-weight: 100;
 }
+
+
 
 #mainNavbar .nav-link{
     color: #6c757d;
@@ -92,12 +94,13 @@ svg{
 #leftA{
  
   
-  display: grid;
-  align-items:center;
-  justify-content: center;
 }
 #rowA{
-   width: absolute;
+   background: firebrick;
+   width: 100%;
+   display: grid;
+  
+  justify-content: center;
 }
 #rightA{
     
@@ -121,14 +124,21 @@ svg{
   
 
 }
+#LefttPr{
+  
+  justify-self: start;
+}
 
 #A  {
     box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
     margin-top: 70px;
     background: #dee2e6;
     text-align: center;
-
+    display: grid;
+    justify-content: center;
     margin-bottom: 50px;
+    margin-left: 25%;
+    width: 318px;
 }
 
 
@@ -190,7 +200,7 @@ svg{
 #A img{
     
     bottom: 2px;
-    margin-right: 0.5rem;
+    margin-right:1.8%;
 }
 #A .card-body .icon{
     padding: 5px;
@@ -278,7 +288,25 @@ svg{
 }
 
 @media (max-width: 990px){
-    
+    #containerA{
+      display: grid;
+      justify-content: center;
+    }
+    #LefttPr{
+      width: 100vw;
+      
+      display: grid;
+      justify-content: center;
+    }
+    #leftA{
+      
+      display: grid;
+      justify-content: center;
+    }
+    #A{
+      margin-left: unset;
+      
+    }
     #allTextA{
       
       
@@ -298,27 +326,40 @@ svg{
 
 
 @media (max-width: 590px){
-    #allTextA{
-      
-      margin-top: 300px;
+    #allTextA p{
+      font-size: 1rem;
     }
-    #rightA{
-      margin-bottom: 200px;
-    }
+    
+
 }
+
+@media (max-width: 370px){
+    #allTextA h1{
+      font-size: 2rem;
+    }
+    #allTextA p{
+      font-size: 0.85rem;
+    }
+    
+
+}
+
+
 
 
 /* projects */
 
 #rightPr p{
+    
     text-align: left;
     font-weight: 200;
-    font-size: 1.25rem;
+    font-size: 1.200rem;
     line-height: 1.5;
 }
 
 
 #containerPr{
+  
   height:100vh;
   align-self: center;
   display: grid;
@@ -533,6 +574,10 @@ svg{
         
         margin-left: 18%;
     }
+    #centerC h1{
+      margin-top: 10%;
+      font-size: 2/25rem;
+    }
     
     
 }
@@ -545,11 +590,12 @@ svg{
   
 }
 
-/* about */
+/* index */
 
 #containerI {
   height: 100vh;
   align-self: center;
+  line-height: 1.125;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -563,7 +609,7 @@ svg{
   text-align: center;
 }
 #containerI img{
-  margin-top: 100px;
+
   width: 20%;
   height: 20%;
 
@@ -614,6 +660,7 @@ svg{
   color: #343a40;
   font-weight: 300;
   font-size: 1.5rem;
+  margin-bottom: -6%;
 }
 
 
@@ -701,28 +748,12 @@ svg{
     
 }
 
-@media (max-width: 800px){
-    #containerI img{
-      width: 225px;
-      height: 225px;
-    }
-    #containerI #name span{
-      font-size: 3.250rem;
-    }
-    #containerI #developer{
-       font-size: 1.45rem;
-    }
-    #containerI #welcome{
-       font-size: 1.1rem;
-    }
-    
-}
 
 @media (max-width: 800px){
     #containerI img{
       width: 225px;
       height: 225px;
-      margin-bottom: 5%;
+      
     }
     #containerI #name span{
       font-size: 2.5rem;

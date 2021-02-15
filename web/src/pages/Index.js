@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import '../styles/style.css';
+import {Helmet} from "react-helmet";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import i from '../imgs/me_main.jpg';
@@ -9,9 +10,12 @@ const Index = () =>{
   
     return(
       
-      <div className="Home">
+      <div className="Home container-fluid px-0 ">
 
-
+      <Helmet>
+                
+            <title>Home</title>         
+      </Helmet>
         <div id="containerI" className="container-fluid px-0 ">
           <div className="col justify-content-center">
             <img src={i} id="me_main" className="img-fluid"  alt=""/>

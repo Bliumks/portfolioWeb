@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import '../styles/style.css';
+import {Helmet} from "react-helmet";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faFrown } from '@fortawesome/free-solid-svg-icons'
@@ -8,7 +9,11 @@ import { faFrown } from '@fortawesome/free-solid-svg-icons'
 
 
 const  Error = () =>{
-  
+  <Helmet>
+                
+                <title>404</title>
+                
+            </Helmet>
     return(
         <div className="Home">
             <div id="containerI" className="container-fluid justify-content-center " style={{height: '100vh'}} >
